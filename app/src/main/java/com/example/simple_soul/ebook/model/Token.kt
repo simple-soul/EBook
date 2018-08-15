@@ -1,3 +1,13 @@
+package com.example.simple_soul.ebook.model
+
+import com.example.simple_soul.ebook.model.models.BaseModel
+
+// 包名
+private val PACKAGE_NAME = "com.example.simple_soul.ebook."
+// 具体Model
+val API_USER_DATA = PACKAGE_NAME + "UserDataModel"
+
+
 inline fun request(token: String): BaseModel<*>?
 {
     // 声明一个空的BaseModel

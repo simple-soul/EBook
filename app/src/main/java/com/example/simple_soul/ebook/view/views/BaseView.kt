@@ -1,12 +1,8 @@
+package com.example.simple_soul.ebook.view.views
+
 import android.content.Context
 
 interface BaseView {
-    /**
-     * 获取上下文
-     * @return 上下文
-     */
-    fun getContext(): Context
-
     /**
      * 显示正在加载view
      */
@@ -27,4 +23,10 @@ interface BaseView {
      * 显示请求错误提示
      */
     fun showErr()
+
+    /**
+     * 获取上下文
+     * @return 上下文
+     */
+    fun getContext(): Context
 }
